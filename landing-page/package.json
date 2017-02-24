@@ -1,0 +1,14 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "- Thêm data-rjs=\"3\" trong element cần retina\r         * <img src=\"/images/my_image.png\" data-rjs=\"/images/2x/my_image.png\" />\r         * <div style=\"background: url(my_image.png);\" data-rjs=\"3\" />\r         * <div style=\"background: url(my_image.png);\" data-rjs=\"3\" />\r     - Thêm trong js để apply cho element nào.\r         * retinajs();\r         * retinajs( $('img') );",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
