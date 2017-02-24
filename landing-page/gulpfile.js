@@ -10,10 +10,4 @@ gulp.task('browser-sync', function() {
     });
 });
 
-// or...
-
-gulp.task('browser-sync', function() {
-    browserSync.init({
-        proxy: "yourlocal.dev"
-    });
-});
+gulp.task('default', ['browser-sync']);
